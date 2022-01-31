@@ -1,0 +1,90 @@
+#submit{
+    display: block !important;
+    margin-top:10px;
+}
+
+
+#main{
+    margin-inline:28%;
+    margin-top: 30px;    
+    text-align: left;
+    background-color:rgba(240, 130, 196, .7);    
+    border-radius: 13px;
+    box-shadow: #7c2158 0px 10px 20px 0px;
+}
+
+#survey-form label{
+    display: block !important;
+    margin:5px;
+    padding-top:13px;  
+    color:#ffff;      
+}
+
+#survey-form{
+    margin-left: 20px; 
+}
+
+#datos-label input{
+    width: 90%;
+    border-radius:6px;
+    height:25px; 
+}
+
+#selection{   
+    padding-top:5px;
+}
+
+#dropdown{    
+    display:auto;
+    margin-bottom: 10px;
+}
+
+body{    
+    background-image: url(img/Background.jpeg);
+    background-repeat:no-repeat;
+    background-size: auto 120%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header{
+   color:white;
+   text-align: center;
+   margin-inline:28%;
+   background-color:rgba(240, 130, 196, .7);
+   border-radius: 13px;
+   box-shadow: #7c2158 0px 5px 20px 0px;
+}
+
+p{
+    color:#ffff;
+}
+
+#dropdown{
+    height:25px;
+    border-radius:6px;
+}
+
+#aditional-info{
+    width: 90%;
+    border-radius:6px;
+}
+
+#button{    
+    padding:40px; 
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+}
+
+#submit{
+    height: 40px;
+    width: 90px;
+    background-color:rgba(204, 88, 158, 0.9);
+    border-radius: 8px;
+    border: 2px #ffff;
+    color:#ffff;
+    box-shadow: #7c2158 0px 5px 20px 0px;
+}
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    
+
+    <header>
+
+        <h1 id="title">Inscripcion Curso de Musica</h1>
+
+        <p id="description">Llena este formulario para inscribirte al curso de musica</p>
+
+    </header>
+
+   <div id="main">
+
+    <form id="survey-form">
+
+        <div id="datos-label">
+
+            <label for="name" id="name-label">Nombre</label>
+        <input type="text" id="name" placeholder="Escribe tu nombre" required>
+
+        <label for="email" id="email-label">Correo electronico</label>
+        <input type="email" id="email" placeholder="Introduce tu correo electronico" required>
+
+        <label for="number" id="number-label">Edad</label>
+        <input type="number" id="number" placeholder="Introduce tu edad" min="5" max="99" required>
+
+        <label for="tel" id="tel-label">Numero Telefonico</label>
+        <input type="number" id="tel" placeholder="Introduce un numero telefonico" required>
+
+        </div>
+        
+
+        <div id="selection">
+
+                <p>Elije un instrumento</p>
+            <select id="dropdown">
+
+                <option disabled selected value>Seleccionar un instrumento</option>
+                <option value="Guitarra">Guitarra</option>
+                <option value="Bajo">Bajo</option>
+                <option value="Piano">Piano</option>
+                <option value="Violin">Violin</option>
+                <option value="Flauta">Flauta</option>
+
+            </select>
+
+        </div>
+       
+
+       <div id="radio-check">
+
+            <p>¿Cuanto conocimiento tienes sobre teoria musical?</p>
+            <label>
+                <input name="radio" type="radio" value="ninguna">Ninguna
+            </label>
+
+            <label>
+                <input name="radio" type="radio" value="poco">Un poco
+            </label>
+
+            <label>
+                <input name="radio" type="radio" value="medio">Medio
+            </label>
+
+            <label>
+                <input name="radio" type="radio" value="avanzado">Avanzado
+            </label>
+
+       </div> 
+        
+
+       <div id="checkbox"> 
+
+            <p>Elije los instrumentos que sepas tocar</p>
+
+            <label>
+                <input type="checkbox" value="Guitarra">Guitarra
+            </label>
+
+            <label>
+                <input type="checkbox" value="Bajo">Bajo
+            </label>
+
+            <label>
+                <input type="checkbox" value="Piano">Piano
+            </label>
+
+            <label>
+                <input type="checkbox" value="Violin">Violin
+            </label>
+
+            <label>
+                <input type="checkbox" value="Flauta">Flauta
+            </label>
+
+        </div>
+
+       <div id="textarea">
+
+            <p>Informacion adcional (opcional)</p>
+            <textarea id="aditional-info" cols="40" rows="5" placeholder="Datos adicionales"></textarea>
+
+       </div>
+
+       <div id="button">
+
+        <button id="submit" class="submit">Enviar</button>
+
+       </div>
+      
+       
+
+    </form>
+
+   </div>
+    
+
+</body>
+</html>
